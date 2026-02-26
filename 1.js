@@ -14,7 +14,7 @@ else{
 let nums = []
 
 for(loop = A+1; loop<B;loop++){
-    if(loop % 2 != 0){
+    if(loop % 2 !== 0){
       nums.push(loop)
     }
 }
